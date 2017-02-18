@@ -1,0 +1,345 @@
+object Form3: TForm3
+  Left = 228
+  Height = 685
+  Top = 28
+  Width = 327
+  Caption = 'Form3'
+  ClientHeight = 0
+  ClientWidth = 0
+  Color = clWindow
+  OnCreate = FormCreate
+  LCLVersion = '1.6.2.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 28
+    Top = 112
+    Width = 57
+    Caption = 'Label1'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 176
+    Height = 28
+    Top = 112
+    Width = 57
+    Caption = 'Label2'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 28
+    Top = 152
+    Width = 57
+    Caption = 'Label3'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label3Click
+  end
+  object Label4: TLabel
+    Left = 176
+    Height = 28
+    Top = 152
+    Width = 57
+    Caption = 'Label4'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 16
+    Height = 28
+    Top = 192
+    Width = 57
+    Caption = 'Label5'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 176
+    Height = 28
+    Top = 192
+    Width = 57
+    Caption = 'Label6'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 16
+    Height = 28
+    Top = 232
+    Width = 57
+    Caption = 'Label7'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 176
+    Height = 28
+    Top = 232
+    Width = 57
+    Caption = 'Label8'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 16
+    Height = 28
+    Top = 272
+    Width = 57
+    Caption = 'Label9'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 176
+    Height = 28
+    Top = 272
+    Width = 68
+    Caption = 'Label10'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 16
+    Height = 28
+    Top = 312
+    Width = 68
+    Caption = 'Label11'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 176
+    Height = 28
+    Top = 308
+    Width = 68
+    Caption = 'Label12'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 16
+    Height = 28
+    Top = 352
+    Width = 68
+    Caption = 'Label13'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 176
+    Height = 28
+    Top = 352
+    Width = 68
+    Caption = 'Label14'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label15: TLabel
+    Left = 16
+    Height = 28
+    Top = 392
+    Width = 68
+    Caption = 'Label15'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label16: TLabel
+    Left = 176
+    Height = 28
+    Top = 392
+    Width = 68
+    Caption = 'Label16'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label17: TLabel
+    Left = 16
+    Height = 28
+    Top = 432
+    Width = 68
+    Caption = 'Label17'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label18: TLabel
+    Left = 176
+    Height = 28
+    Top = 432
+    Width = 68
+    Caption = 'Label18'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label19: TLabel
+    Left = 16
+    Height = 28
+    Top = 472
+    Width = 68
+    Caption = 'Label19'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label20: TLabel
+    Left = 176
+    Height = 28
+    Top = 472
+    Width = 68
+    Caption = 'Label20'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label21: TLabel
+    Left = 58
+    Height = 28
+    Top = 24
+    Width = 173
+    Caption = 'Highscores - Top 10'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label22: TLabel
+    Left = 112
+    Height = 71
+    Top = 88
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label23: TLabel
+    Left = 112
+    Height = 71
+    Top = 128
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label24: TLabel
+    Left = 112
+    Height = 71
+    Top = 168
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label25: TLabel
+    Left = 112
+    Height = 71
+    Top = 208
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label26: TLabel
+    Left = 112
+    Height = 71
+    Top = 248
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label27: TLabel
+    Left = 112
+    Height = 71
+    Top = 288
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label28: TLabel
+    Left = 112
+    Height = 71
+    Top = 328
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label29: TLabel
+    Left = 112
+    Height = 71
+    Top = 368
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label30: TLabel
+    Left = 112
+    Height = 71
+    Top = 408
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label31: TLabel
+    Left = 112
+    Height = 71
+    Top = 448
+    Width = 21
+    Caption = '-'
+    Font.Height = -53
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 104
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'Ok'
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 104
+    Height = 30
+    Top = 587
+    Width = 75
+    Caption = 'Effacer'
+    Kind = bkIgnore
+    ModalResult = 5
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+end

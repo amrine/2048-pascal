@@ -1,0 +1,93 @@
+object Form1: TForm1
+  Left = 5
+  Height = 700
+  Top = 0
+  Width = 958
+  BorderIcons = [biMinimize, biMaximize]
+  Caption = '2048'
+  ClientHeight = 0
+  ClientWidth = 0
+  Color = clWindow
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  OnKeyUp = FormKeyUp
+  LCLVersion = '1.6.2.0'
+  object Image1: TImage
+    Left = 48
+    Height = 720
+    Top = 32
+    Width = 720
+    Constraints.MaxHeight = 1000
+    Constraints.MaxWidth = 1000
+    OnClick = Image1Click
+  end
+  object grp_points: TGroupBox
+    Left = 776
+    Height = 56
+    Top = 32
+    Width = 145
+    Caption = 'Points : '
+    ClientHeight = 36
+    ClientWidth = 141
+    TabOrder = 0
+    object lbl_points: TLabel
+      Left = 8
+      Height = 1
+      Top = 8
+      Width = 1
+      Font.Height = -16
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object grp_highscore: TGroupBox
+    Left = 776
+    Height = 56
+    Top = 104
+    Width = 145
+    Caption = 'High Score : '
+    ClientHeight = 36
+    ClientWidth = 141
+    TabOrder = 1
+    object lbl_highscore: TLabel
+      Left = 8
+      Height = 1
+      Top = 8
+      Width = 1
+      Font.Height = -16
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 16
+    object MenuItem1: TMenuItem
+      Caption = 'Couleurs'
+      object MenuItem2: TMenuItem
+        Caption = 'Vert'
+        OnClick = MenuItem2Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Pastel'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Défaut'
+        OnClick = MenuItem4Click
+      end
+    end
+    object MenuItem6: TMenuItem
+      Caption = 'Réglages '
+      OnClick = MenuItem6Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Réinitialiser'
+      ShortCut = 16466
+      OnClick = MenuItem3Click
+    end
+    object MenuItem7: TMenuItem
+      Caption = 'Sortir'
+      OnClick = MenuItem7Click
+    end
+  end
+end
